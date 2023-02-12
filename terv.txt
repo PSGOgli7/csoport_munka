@@ -1,0 +1,28 @@
+udvozollek a jatekban
+
+bevezti az egesz jatekot
+
+sok sikert
+
+- 1 -> Belöknek a lenti alagútba, és rád zárják az
+ajtót, kizárva ezzel a nyíláson át beszűrődő
+természetes világosságot. Innentől kezdve
+kizárólag a falra rögzített fáklyáktól remél-
+hetsz valamennyi fényt. Ahogy szemed hoz-
+zászokik a homályhoz, látod, hogy az alagút
+észak felé indul. Nagyot sóhajtasz a dolog
+igazságtalansága felett, majd elindulsz abba
+az irányba.
+Tovább? (enter)
+
+Az ajtó egy nyugat felé haladó alagútba
+nyílik. Követed, míg egy elágazáshoz nem
+érsz. 
+1. Ha észak felé akarsz fordulni. 
+2. Ha nem akarsz letérni ebből a
+járatból.
+Válassz a megadott opciók közül: 2
+
+Alapvetően 1 kor ugy nez ki, h kiirjuk az aktualis számhoz tartozo szoveget.
+Utana a hozzatartozo opciokat szamozva, majd bekerjuk azt, hogy melyiket valasztotta.
+Ha pedig csak 1 opcionk van akkor kiirjuk az opciot es varjuk az entert.
