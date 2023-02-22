@@ -4,22 +4,22 @@
   "Esemény": 1
 },
 {
-  "Sorszám" : 1,
+  "Sorszám" : 2,
+  "Szöveg" : "asd",
+  "Esemény": 1
+},
+{
+  "Sorszám" : 3,
   "Szöveg" : "",
   "Esemény": 1
 },
 {
-  "Sorszám" : 1,
+  "Sorszám" : 4,
   "Szöveg" : "",
   "Esemény": 1
 },
 {
-  "Sorszám" : 1,
-  "Szöveg" : "",
-  "Esemény": 1
-},
-{
-  "Sorszám" : 1,
+  "Sorszám" : 5,
   "Szöveg" : "",
   "Esemény": 1
 },
