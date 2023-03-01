@@ -1,8 +1,9 @@
 import random
+
 class Entity:
     def __init__(self, name, hp=0, dex=0, luck= 0):
         if hp == 0:
-            self.hp = random.randrange(1, 6) + random.randrange(1, 6) + 12
+            self.hp = self.duplakocka() + 12
         else:
             self.hp = hp
         
@@ -23,9 +24,48 @@ class Entity:
             return f"{self.name}, Életerő: {self.hp}, Ügyesség: {self.dex}"    
         return f"{self.name}, Életerő: {self.hp}, Ügyesség: {self.dex}, Szerencse: {self.luck}"
 
+    def attack(self, other):
+        while self.hp > 0 and other.hp > 0:
+            tamadoero1 = self.duplakocka() + other.dex
+            tamadoero2 = self.duplakocka() + self.dex
+            if tamadoero2 > tamadoero1:
+                other.hp = other.hp -2
+                print(f"Megsebezted az ellenfeled. Vesztett 2 életerőt. (Életereje: {other.hp})")
+                #Szeretnéd felhasználni a szerencsédet?
+                if other.hp > 0 and self.kerdes("Szeretnéd próbára tenni a szerencsédet?"):
+                    if self.tryluck():
+                        other.hp = other.hp -2
+                        print(f"Szerencséd volt. Vesztett még 2 életerőt. (Életereje: {other.hp})")
+                    else:
+                        other.hp = other.hp +1
+                        print(f"Balszerencséd volt. Visszakapott 1 életerőt. (Életereje: {other.hp})")
+            if tamadoero2 < tamadoero1:
+                self.hp = self.hp -2
+                print(f"Az ellenfeled megsebzett téged. Veszítettél 2 életerőt. (Életerő: {self.hp})")
+                #Szeretnéd felhasználni a szerencsédet?
+                if self.hp > 0 and self.kerdes("Szeretnéd próbára tenni a szerencsédet?"):
+                    if self.tryluck():
+                        self.hp = self.hp +1
+                        print(f"Szerencséd volt. Visszakaptál 1 életerőt. (Életerő: {self.hp})")
+                    else:
+                        self.hp = self.hp -1
+                        print(f"Balszerencséd volt. Vesztettél még 1 életerőt. (Életerő: {self.hp})")
+        if self.hp > 0:
+            print("Az ellenfeled meghalt.")
+            return True
+        else:
+            print("Meghaltál. A játéknak vége.")
+            return False
+                
+    
+    def tryluck(self):
+        szerencse1 = self.duplakocka() <= self.luck
+        self.luck = self.luck -1
+        return szerencse1
+    
+    def duplakocka(self):
+        return random.randrange(1, 6) + random.randrange(1, 6)
 
-player = Entity("Sanyi")
-print(player)
-
-mob = Entity("Tolvaj", 6, 7, -1)
-print(mob)
+    def kerdes(self, kerdes1):
+        valasz = input(kerdes1 + " (Igen vagy Nem)")
+        return valasz.lower() == "igen"
