@@ -26,3 +26,10 @@ Válassz a megadott opciók közül: 2
 Alapvetően 1 kor ugy nez ki, h kiirjuk az aktualis számhoz tartozo szoveget.
 Utana a hozzatartozo opciokat szamozva, majd bekerjuk azt, hogy melyiket valasztotta.
 Ha pedig csak 1 opcionk van akkor kiirjuk az opciot es varjuk az entert.
+
+...
+
+cards.json -ban a "Tovabb" stringtol kapja az opciokat, azaz lehet ketto is ott, amit atalakitunk len() stringbe
+az lesz majd az opcio, ha csak egy van, akkor enter, ha tobb, akkor 1,2,3,4,5 szamok
+illeteve az esemenynel majd at kell irni olyanra hogy "ugras" vagy "harc" a szamok helyett es ezeknek egy def majd az entity be.
+ennyi kell, s kesz sztem.
