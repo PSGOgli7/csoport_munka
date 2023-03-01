@@ -1,27 +1,32 @@
 [{
   "Sorszám" : 1,
   "Szöveg" : "",
-  "Esemény": 1
+  "Esemény": 1,
+  "Tovabb" : [47]
 },
 {
   "Sorszám" : 2,
   "Szöveg" : "asd",
-  "Esemény": 1
+  "Esemény": 1,
+  "Tovabb" : []
 },
 {
   "Sorszám" : 3,
   "Szöveg" : "",
-  "Esemény": 1
+  "Esemény": 1,
+  "Tovabb" : []
 },
 {
   "Sorszám" : 4,
   "Szöveg" : "",
-  "Esemény": 1
+  "Esemény": 1,
+  "Tovabb" : []
 },
 {
   "Sorszám" : 5,
   "Szöveg" : "",
-  "Esemény": 1
+  "Esemény": 1,
+  "Tovabb" : []
 },
 {
   "Sorszám" : 1,
