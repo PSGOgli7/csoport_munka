@@ -1,14 +1,15 @@
 [{
   "Sorszám" : 1,
-  "Szöveg" : "Belöknek a lenti alagútba, és rád zárják az\najtót, kizárva ezzel a nyíláson át beszűrődő\ntermészetes világosságot. Innentől kezdve\nkizárólag a falra rögzített fáklyáktól remél-\nhetsz valamennyi fényt. Ahogy szemed hoz-\nzászokik a homályhoz, látod, hogy az alagút\nészak felé indul. Nagyot sóhajtasz a dolog\nigazságtalansága felett, majd elindulsz abba\naz irányba. Lapozz a 41-re.",
-  "Esemény": "Tamad",
+  "Szöveg" : "1. Belöknek a lenti alagútba, és rád zárják az\najtót, kizárva ezzel a nyíláson át beszűrődő\ntermészetes világosságot. Innentől kezdve\nkizárólag a falra rögzített fáklyáktól remél-\nhetsz valamennyi fényt. Ahogy szemed hoz-\nzászokik a homályhoz, látod, hogy az alagút\nészak felé indul. Nagyot sóhajtasz a dolog\nigazságtalansága felett, majd elindulsz abba\naz irányba. Tovább? (1)",
+  "Esemény": "Ugras",
   "Tovabb" : [1, 41]
 },
 {
   "Sorszám" : 2,
   "Szöveg" : "asd",
   "Esemény": "Ugras",
-  "Tovabb" : []
+  "Tovabb" : [],
+  "Mobs" : {}
 },
 {
   "Sorszám" : 3,
@@ -236,17 +237,21 @@
   "Sorszám" : 1,
   "Szöveg" : "",
   "Esemény": 1,
-  "Tovabb" : []
+  "Tovabb" : [],
+  "Mobs" : {}
 },
 {
   "Sorszám" : 41,
   "Szöveg" : "a kutyamutya",
-  "Esemény": 1,
-  "Tovabb" : []
+  "Esemény": "Tamad",
+  "Tovabb" : [41, 42],
+  "Mobs" : {
+    "Mob1" : ["Tolvaj", 6 , 7 , 0]
+  }
 },{
   "Sorszám" : 42,
-  "Szöveg" : "",
-  "Esemény": 1,
+  "Szöveg" : "kukimuki",
+  "Esemény": "Ugras",
   "Tovabb" : []
 },
 {
@@ -364,33 +369,36 @@
   "Tovabb" : []
 },
 {
-  "Sorszám" : 1,
-  "Szöveg" : "",
-  "Esemény": 1,
+  "Sorszám" : 62,
+  "Szöveg" : "62. Rájössz, hogy nincs rá mód, hogy lejuss innen, így \nvisszatérsz az elágazáshoz.\nTovább? (1)",
+  "Esemény": "Ugras",
   "Tovabb" : []
 },{
-  "Sorszám" : 1,
-  "Szöveg" : "",
-  "Esemény": 1,
+  "Sorszám" : 63,
+  "Szöveg" : "63. Mikor megbillentél, két tárgy kiesett a hátizsákodból \n(te választhatod ki, melyek legyenek ezek). Vesztesz 1 SZERENCSE \npontot. Az északi járaton át folytatod az utad.\nTovább? (1)",
+  "Esemény": "Ugras",
   "Tovabb" : []
 },
 {
-  "Sorszám" : 1,
-  "Szöveg" : "",
-  "Esemény": 1,
+  "Sorszám" : 64,
+  "Szöveg" : "64. Ahogy leugrasz, hátizsákod beleakad vala- mibe, te pedig egy \npillanatra elveszted az egyensúlyod, épp mikor földet érsz. \nTedd próbára SZERENCSÉD!\n1. Ha szerencséd van \n2. Hogyha nincs szerencséd\nVálassz a megadott opciók közül: (1 or 2)",
+  "Esemény": "Ugras",
   "Tovabb" : []
 },
 {
-  "Sorszám" : 1,
-  "Szöveg" : "",
-  "Esemény": 1,
+  "Sorszám" : 65,
+  "Szöveg" : "65. Az ajtó egy nyirkos folyosóra vezet, mely először kelet felé fordul, \nvégül pedig észak- ra kanyarodik. Elindulsz.\n",
+  "Esemény": "Ugras",
   "Tovabb" : []
 },
 {
-  "Sorszám" : 1,
-  "Szöveg" : "",
-  "Esemény": 1,
-  "Tovabb" : []
+  "Sorszám" : 66,
+  "Szöveg" : "66. Egy lépcsősorhoz érsz, és már épp lefelé indulnál rajtuk, mikor a \nhátad mögött valami zaj veszélyre figyelmeztet. Megperdülsz, és egy \nalacsony, köpcös alakot pillantasz meg. Ocsmány arca undok vigyorra húzódik. \nHáta mögül előkap egy tüskés buzogányt, majd a hírhedt Sikító Szellemet \nis megszégyenítő csataüvöltéssel megpörgeti, és a karodba vágja. \nVesztesz 1 ÉLETERÓ pontot. Meg kell küzdened vele.\nTörpe\nÜGYESSÉG 8 ÉLETERO 5\nHa győzöl, északi irányba folytatod az utad, lefelé a lépcsőn.",
+  "Esemény": "Tamad",
+  "Tovabb" : [],
+    "Mobs" : {
+    "Mob1" : ["Torpe", 8 , 5 , 0]
+  }
 },
 {
   "Sorszám" : 1,
