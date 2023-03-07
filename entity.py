@@ -24,6 +24,10 @@ class Entity:
             return f"{self.name}, Életerő: {self.hp}, Ügyesség: {self.dex}"    
         return f"{self.name}, Életerő: {self.hp}, Ügyesség: {self.dex}, Szerencse: {self.luck}"
 
+    def hplevonas(self, szam):
+        self.szam = szam
+        self.hp = self.hp - szam
+
     def attack(self, other):
         while self.hp > 0 and other.hp > 0:
             tamadoero1 = self.duplakocka() + other.dex
