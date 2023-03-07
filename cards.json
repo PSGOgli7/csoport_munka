@@ -581,6 +581,7 @@
         "Sorszám": 66,
         "Szöveg": "Egy lépcsősorhoz érsz, és már épp lefelé indulnál rajtuk, mikor a hátad mögött valami zaj veszélyre figyelmeztet. Megperdülsz, és egy alacsony, köpcös alakot pillantasz meg. Ocsmány arca undok vigyorra húzódik. Háta mögül előkap egy tüskés buzogányt, majd a hírhedt Sikító Szellemet is megszégyenítő csataüvöltéssel megpörgeti, és a karodba vágja. Vesztesz 1 ÉLETERÓ pontot. Meg kell küzdened vele.\nTörp ÜGYESSÉG 8 ÉLETERO  Ha győzöl, északi irányba folytatod az utad, lefelé a lépcsőn. Lapozz a 118-ra.",
         "Esemény": "Harc",
+        "Alaphurt" : [1],
         "Tovabb": [
             118
         ],
