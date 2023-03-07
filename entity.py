@@ -28,6 +28,14 @@ class Entity:
         self.szam = szam
         self.hp = self.hp - szam
 
+    def dexlevonas(self, szam):
+        self.szam = szam
+        self.dex = self.dex - szam
+
+    def lucklevonas(self,szam):
+        self.szam=szam
+        self.luck = self.luck - szam
+
     def attack(self, other):
         while self.hp > 0 and other.hp > 0:
             tamadoero1 = self.duplakocka() + other.dex

@@ -974,6 +974,7 @@
         "Sorszám": 111,
         "Szöveg": "Az alagút elkeskenyedik, és egyre nehezebben tudsz csak előre haladni. A plafon meredeken lefelé indul, így először le kell hajolnod, végül négykézlábra kényszerülsz. Valamennyire látod magad előtt az utat a szűk járaton át. Tedd próbára SZERENCSÉD! Ha nincs szerencséd, lapozz a 116-ra. Ha szerencséd van, találsz egy kézre álló kődarabot, amivel sikerül eléggé kiszélesítened az alagutat ahhoz, hogy gond nélkül továbbhaladhass-lapozz a 20-ra.",
         "Esemény": "Ugras",
+        "Szerencseprob" : "Ja",
         "Tovabb": [111,
             116,
             20
