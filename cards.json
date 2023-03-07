@@ -336,16 +336,17 @@
     },
     {
         "Sorszám": 41,
-        "Szöveg": "ME Az alagút, bár folyamatosan jobbra-balr kanyarog, nagyjából mégis tartja az észak irányt, végül élesen oldalra kanyarodik, é ekkor majdnem belefutsz egy fekete kö penybe öltözött alakba. Tört tart a kezében az arcán ülő tekintet rettegésről árulkodik Rájössz, hogy nem te vagy az egyetlen, aki most próbára tesznek, és hogy mindkette ugyanazon Szobor után kutattok. A fick rád veti magát, nyilvánvaló, hogy mielőb végezni akar veled. Harcolnod kell Tolva ÜGYESSÉG 7 ÉLETERŐ  Ha győzöl, lapozz a 85-re.",
+        "Szöveg": "ME Az alagút, bár folyamatosan jobbra-balr kanyarog, nagyjából mégis tartja az észak irányt, végül élesen oldalra kanyarodik, é ekkor majdnem belefutsz egy fekete kö penybe öltözött alakba. Tört tart a kezében az arcán ülő tekintet rettegésről árulkodik Rájössz, hogy nem te vagy az egyetlen, aki most próbára tesznek, és hogy mindkette ugyanazon Szobor után kutattok. A fickó rád veti magát, nyilvánvaló, hogy mielőb végezni akar veled. Harcolnod kell Tolvaj ÜGYESSÉG 7 ÉLETERŐ  Ha győzöl, lapozz a 85-re.",
         "Esemény": "Harc",
         "Tovabb": [
             41, 85
         ],
         "Mobs": {
             "Mob1": [
-                "Tolva",
-                0,
-                7
+                "Tolvaj",
+                6,
+                7,
+                -1
             ]
         }
     },
@@ -737,7 +738,7 @@
         "Tovabb": [
             85, 108,
             147
-        ]
+        ],
     },
     {
         "Sorszám": 86,
@@ -1369,9 +1370,11 @@
         "Sorszám": 156,
         "Szöveg": "Hazudsz A férfi hűvösen mér végig. mondja. És a hazugok büntetést érdemelnek. Elsétál melletted a folyosón. Nyugtalanul töprengsz azon, vajon hogy is érthette, amit mondott. Hamarosan megtudod. A története ugyan igaz volt, azt azonban nem mondta el, mi volt a foglalkozása a fenti világban, hogy miért került ide: zsebtolvaj volt! 2 adag élelmedet nyúlta le a fickó. Vesztesz 1 SZERENCSE pontot. Ezután folytatod utadat kelet felé. Lapozz az 57-re.",
         "Esemény": "Ugras",
+        "Szerhurt": [1],
         "Tovabb": [156,
             57
-        ]
+        ],
+
     },
     {
         "Sorszám": 157,
