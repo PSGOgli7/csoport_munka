@@ -34,9 +34,11 @@ while True:
       if len(json[sorszam - 1]['Tovabb']) <= valasz:
           print('Ez nem opció.')
           continue
+      if "Vege" in json[sorszam - 1]['Tovabb']:
+          break
       sorszam = json[sorszam - 1]['Tovabb'][valasz]
-      if sorszam == 66:
-          player.hplevonas(1)
+      if "Alaphurt" in json[sorszam - 1]:
+          player.hplevonas(json[sorszam - 1]['Alaphurt'][0])
   #válasz ellenőrzése, hogy benne van-e a továbban
 
 print('Vége a játéknak!')
