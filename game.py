@@ -40,14 +40,21 @@ while True:
       if "Alaphurt" in json[sorszam - 1]:
           player.hplevonas(json[sorszam - 1]['Alaphurt'][0])
       if "Szerhurt" in json[sorszam - 1]:
-          player.dexlevonas(json[sorszam - 1]['Szerhurt'][0])
+          player.lucklevonas(json[sorszam - 1]['Szerhurt'][0])
       if "Dexhurt" in json[sorszam - 1]:
-          player.lucklevonas(json[sorszam - 1]['Dexhurt'][0])
+          player.dexlevonas(json[sorszam - 1]['Dexhurt'][0])
+      if "ATconfig" in json[sorszam - 1]:
+          player.ATconfig(json[sorszam - 1]['Dexhurt'][0])
       if "Szerenceprob" in json[sorszam - 1]:
           if player.tryluck():
+              print("Siker!")
               sorszam = json[sorszam - 1]['Tovabb'][2]
           else:
+              ("Nem sikerült.")
               sorszam = json[sorszam - 1]['Tovabb'][1]
+      if sorszam == 49:
+          if player.luck < 6:
+              player.luck = 6
   #válasz ellenőrzése, hogy benne van-e a továbban
 
 print('Vége a játéknak!')

@@ -1,7 +1,7 @@
 import random
 
 class Entity:
-    def __init__(self, name, hp=0, dex=0, luck= 0):
+    def __init__(self, name, hp=0, dex=0, luck= 0, AT= 20):
         if hp == 0:
             self.hp = self.duplakocka() + 12
         else:
@@ -16,7 +16,7 @@ class Entity:
             self.luck = random.randrange(1, 6) + 6
         else:
             self.luck = luck
-        
+        self.AT = AT
         self.name = name
     
     def __repr__(self):
@@ -35,6 +35,10 @@ class Entity:
     def lucklevonas(self,szam):
         self.szam=szam
         self.luck = self.luck - szam
+
+    def ATconfig(self, szam):
+        self.szam=szam
+        self.AT = self.AT + szam
 
     def attack(self, other):
         while self.hp > 0 and other.hp > 0:
