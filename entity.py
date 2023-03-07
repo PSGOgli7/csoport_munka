@@ -24,6 +24,15 @@ class Entity:
             return f"{self.name}, Életerő: {self.hp}, Ügyesség: {self.dex}"    
         return f"{self.name}, Életerő: {self.hp}, Ügyesség: {self.dex}, Szerencse: {self.luck}"
 
+    def gethp(self):
+        return self.hp
+
+    def getdex(self):
+        return self.dex
+
+    def getluck(self):
+        return self.luck
+
     def hplevonas(self, szam):
         self.szam = szam
         self.hp = self.hp - szam

@@ -13,8 +13,11 @@ sorszam = 1
 while True:
   print(json[sorszam-1]['Szöveg'])
   if json[sorszam-1]['Esemény'] == 'Harc':
-      mobj = json[sorszam-1]['Mobs']['Mob1']
-      mob = Entity(mobj[0], mobj[1], mobj[2], mobj[3])
+      if "Mobcopy" in json[sorszam - 1]:
+          mob = Entity("Tükörkép", player.dex, player.hp-2, -1)
+      else:
+        mobj = json[sorszam-1]['Mobs']['Mob1']
+        mob = Entity(mobj[0], mobj[1], mobj[2], mobj[3])
       if "Mob2" in json[sorszam-1]['Mobs']:
           mobj2 = json[sorszam - 1]['Mobs']['Mob2']
           mob2 = Entity(mobj2[0], mobj2[1], mobj2[2], mobj[3])
@@ -48,8 +51,10 @@ while True:
               print("Siker!")
               sorszam = json[sorszam - 1]['Tovabb'][2]
           else:
-              ("Nem sikerült.")
+              print("Nem sikerült.")
               sorszam = json[sorszam - 1]['Tovabb'][1]
+
+
       if sorszam == 49:
           if player.luck < 6:
               player.luck = 6
