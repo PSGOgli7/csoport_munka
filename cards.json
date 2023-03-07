@@ -1639,6 +1639,6 @@
         "Sorszám": 200,
         "Szöveg": "Az odafenn álló Elfek serege várakozóan néz rád, íjaikat megfeszítve tartják\nmaguk előtt, egyenesen rád célozva. A Főnök fia előre lép és kérdően az öregre\ntekint, aki alig észrevehetően bólint. Az ifjú kifejezés- telen arccal feléd fordul.\nEmber, ártat- lannak ítéltettél, így szabadon távozhatsz. Megtarthatsz bármit,\namit az Ítélet Labirin- tusában találtál. Távozz. - Kábán lépsz le az emelvényről.\nAz Elfek utat nyitnak neked, miközben elhaladsz mellettük. Mikor végre nyílt terepre\nérsz, megfordulsz és leg- nagyobb meglepetésedre már csak az öreget látod. Búcsúzóul\nfeléd biccent, a következő pillanatban pedig a szemed előtt oszlik szét ragyogó fénnyé.",
         "Esemény": "Ugras",
-        "Tovabb": []
+        "Tovabb": ["Vége"]
     }
 ]
