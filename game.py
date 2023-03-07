@@ -2,9 +2,9 @@ import json
 import random
 from entity import Entity
 
-with open("cards.json", "r", encoding = "utf-8") as f:
+with open("cards.json", "r", encoding="utf-8") as f:
     cards = json.load(f)
-with open("entity.py", "r", encoding = "utf-8") as p:
+with open("entity.py", "r", encoding="utf-8") as p:
     print(p)
 player = Entity("sanyi")
 

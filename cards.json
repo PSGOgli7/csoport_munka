@@ -1,7 +1,7 @@
 [
     {
         "Sorszám": 1,
-        "Szöveg": "Belöknek a lenti alagútba, és rád zárják a ajtót, kizárva ezzel a nyíláson át beszűrőd természetes világosságot.\n Innentől kezdv kizárólag a falra rögzített fáklyáktól remél hetsz valamennyi fényt.\nAhogy szemed hoz zászokik a homályhoz, látod, hogy az alagú észak felé indul.\nNagyot sóhajtasz a dolo igazságtalansága felett, majd elindulsz abb az irányba.",
+        "Szöveg": "Belöknek a lenti alagútba, és rád zárják a ajtót, kizárva ezzel a nyíláson át beszűrőd természetes világosságot.\nInnentől kezdv kizárólag a falra rögzített fáklyáktól remél hetsz valamennyi fényt.\nAhogy szemed hoz zászokik a homályhoz, látod, hogy az alagú észak felé indul.\nNagyot sóhajtasz a dolo igazságtalansága felett, majd elindulsz abb az irányba.",
         "Esemény": "Ugras",
         "Tovabb": [
             1, 41
@@ -31,7 +31,7 @@
         "Sorszám": 5,
         "Szöveg": "Az ajtó egy tágas terembe nyílik, melyne északi oldalán egy újabb kijárat van, eg lelógó kötél szomszédságában. Csapdána nem látod jelét, így áthaladsz a szobán é leveszed a kötelet. Lenyomod a kilincset, d így sem sikerül előrébb jutnod alighane zárva van. Ha van nálad egy Aranykulcs lapozz a 110-re. Hogyha nincs, úgy távozo a szobából és folytatod az utadat észak irányba lapozz a 14-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [5,
             110,
             14
         ]
@@ -40,7 +40,7 @@
         "Sorszám": 6,
         "Szöveg": "Az ajtó egy nyugat felé haladó alagútb nyílik. Követed, míg egy elágazáshoz ne érsz. Ha észak felé akarsz fordulni, lapozz  172-re. Ha nem akarsz letérni ebből  járatból, lapozz a 168-ra.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [6,
             172,
             168
         ]
@@ -49,7 +49,7 @@
         "Sorszám": 7,
         "Szöveg": "Mikor végül eléred a verem alját, semmi nem látsz. A falakat végigtapogatva annyi meg tudsz állapítani, hogy az alagút kele felé megy tovább. Ha a vaksötét ellenére i bevállalod ezt a járatot, lapozz a 165-re. H inkább visszatérnél a fenti folyosóra é északnak folytatnád az utad, lapozz a 96-ra.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [7,
             165,
             96
         ]
@@ -58,7 +58,7 @@
         "Sorszám": 8,
         "Szöveg": "A dárdák, melyeket egy igen hatásos mé reggel kentek be, mélyen a lábadba fúród nak. Dobj egy kockával, hogy megtudd hány ÉLETERO pontot vesztettél. Lapozz  65-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [9,
             65
         ]
     },
@@ -66,7 +66,7 @@
         "Sorszám": 9,
         "Szöveg": "Elsietsz a halott fenevad teteme mellett é gyorsan az északi járathoz lépsz. Lapozz a 52-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [9,
             52
         ]
     },
@@ -74,7 +74,7 @@
         "Sorszám": 10,
         "Szöveg": "Az ajtó recsegve nyílik ki és fed fel eg helyiséget, mely alig szélesebb a folyosónál.\nHosszában két részre van osztva. Az egyi oldalon egy cellát látsz, míg a másik egye nesen egy ajtóhoz tart az északi falon.  fogdában egy rongyos férfi áll, aki meredte néz téged és fenyegető mozdulatokat tes irányodba. Gyanítod, hogy szabadságáér cserébe esetleg hasznos információkkal tudn szolgálni számodra. Ha beszélni akars vele, lapozz a 149-re. Ha jobban érezné magad, ha holtan tudhatnád magad mögött ezért a cella rácsai közt átnyúlva kardélr hánynád, lapozz a 24-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [10,
             149,
             24
         ]
@@ -83,7 +83,7 @@
         "Sorszám": 11,
         "Szöveg": "Elérsz az alagút végére, de semmi feltünö nem látsz. Ha tovább akarsz keresgélni lapozz a 38-ra. Ha inkább visszatérnél a előző elágazáshoz és ott keletre indulnál lapozz a 31-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [11,
             38,
             31
         ]
@@ -92,7 +92,7 @@
         "Sorszám": 12,
         "Szöveg": "A válladra csapod a köpenyt, de legnagyob meglepetésedre semmi nem történik. Mive egy kicsit azért hűvös van, nem dobod le.\nBár nem tudod, de ez a Lebegés Köpenye.\nHa fel akarod próbálni a gyűrűt, és mé nem tetted meg, lapozz a 119-re. Amennyi ben a folyadék még az üvegben van, é most felhajtanád, lapozz a 71-re. Ha bezár nád a csapóajtót és az ajtón kilépve észa felé távoznál, lapozz a 80-ra.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [12,
             119,
             71,
             80
@@ -102,7 +102,7 @@
         "Sorszám": 13,
         "Szöveg": "A zárba helyezed a kulcsot, de az sajno nem illik bele, így nincs más választásod minthogy megpróbáld betörni. Lapozz  196-ra.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [13,
             196
         ]
     },
@@ -110,7 +110,7 @@
         "Sorszám": 14,
         "Szöveg": "Ahogy észak felé haladsz, nyugatról eg alagutat látsz befutni. Úgy döntesz, inkáb egyenesen mész tovább. Lapozz a 67-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [14,
             67
         ]
     },
@@ -118,7 +118,7 @@
         "Sorszám": 15,
         "Szöveg": "Az áramlat túl erős, és tovább sodor egy hí alá. Magad előtt megpillantasz egy sziklát és megpróbálod elkapni. Tedd próbár SZERENCSÉD! Ha szerencséd van, lapozz  92-re Ha nincs, lapozz a 132-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [15,
             92,
             132
         ]
@@ -128,6 +128,7 @@
         "Szöveg": "Ahogy előre haladsz, elkerüli figyelmede egy medvecsapda. Belelépsz, fogai mélye a lábadba marnak. Vesztesz 2 ÉLETER pontot. Valamivel később egy elágazásho érkezel. Úgy döntesz, a három lehetsége irány közül észak felé indulsz. Lapozz  195-re.",
         "Esemény": "Ugras",
         "Tovabb": [
+            16,
             195
         ]
     },
@@ -136,6 +137,7 @@
         "Szöveg": "A férfi szívébe mártod kardod, szenved arckifejezésétől azonban lelkiismeret-furda lásod támad. Vesztesz 1 SZERENCSE pontot.\nSemmi értékeset nem találsz a szobában, íg az északi ajtón át távozol. Lapozz a 180-ra.",
         "Esemény": "Ugras",
         "Tovabb": [
+            17,
             180
         ]
     },
@@ -144,13 +146,15 @@
         "Szöveg": "Amint belépsz a szobába, rémülten esz mélsz rá, hogy előbb alaposan szét kellet volna nézned a plafonon ugyanis eg hatalmas Pók kapaszkodik, ami minde szemével téged bámul. Négy ezüstszín gubó lóg mellette, és összeszorul a szíved mikor rájössz, hogy két ember, egy Törpe é egy Elf van beléjük csavarva, akik bizonyá ra leendő ellenfeled legutóbbi áldozatai vol tak, és már csak arra várnak, hogy a besti egy jót lakmározzon belőlük. A Pók némá a padlóra pottyan, csáprágói mohón felé nyúlnak.\nÓriáspók ÜGYESSÉG 9 ÉLETERO  Ha végzel ezzel a teremtménnyel, lapozz  94-re. Ha nem, hamarosan te is személyr szött selyemkabátot fogsz kapni.",
         "Esemény": "Harc",
         "Tovabb": [
+            18,
             94
         ],
         "Mobs": {
             "Mob1": [
-                "k",
+                "oriaspok",
                 0,
-                9
+                9,
+                -1
             ]
         }
     },
@@ -158,7 +162,7 @@
         "Sorszám": 19,
         "Szöveg": "Igyekezeted, hogy szilárd talajra juss, hiába valónak tűnik, ám teszel még egy utolsó kétségbeesett próbálkozást: a kijárat fel veted magad. Tedd próbára SZERENCSÉD Ha szerencséd van, lapozz a 176-ra. H nincs, lapozz a 151-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [19,
             176,
             151
         ]
@@ -167,7 +171,7 @@
         "Sorszám": 20,
         "Szöveg": "Az alagút egy súlyos ajtóban ér véget, am le van zárva. De nem kulccsal: három teke rő gombot látsz rajta. Ha ismered a kinyi tásához szükséges kombinációt, add össze  számokat, és lapozz az így kapott fejezet pontra. Ha nem tudod, vissza kell térned  homokos folyópartra és valahol máshol kel próbálkoznod lapozz a 76-ra.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [20,
             76
         ]
     },
@@ -175,13 +179,13 @@
         "Sorszám": 21,
         "Szöveg": "A számszeríj beállítása pontos volt, esélye sincs. A lövedék mélyen a nyakadba fúró dik, átmetszi a gerincvelődet és a falhoz sze gezi ernyedt testedet. Kalandod itt véget ér.",
         "Esemény": "Ugras",
-        "Tovabb": []
+        "Tovabb": ["Vege"]
     },
     {
         "Sorszám": 22,
         "Szöveg": "Az ajtó egy kis terembe nyílik. Egyik sar kában, egy kosárban egy hatalmas, kutya szerű teremtmény hever. A szemben lév falon egy ajtót látsz, mely mellett szögr akasztva egy Bronz Kulcs lóg hívogatóan.\nHa megpróbálsz csendben átlopózni a helyi ségen, lapozz a 81-re. Ha semmiképp ne akarod felkelteni a kutyát, és az ajtó becsu kása után inkább visszatérnél az elágazás hoz, hogy észak felé folytasd az utad, la pozz a 108-ra.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [22,
             81
         ]
     },
@@ -189,7 +193,7 @@
         "Sorszám": 23,
         "Szöveg": "Köpenyed hirtelen megremeg, és felfúvó dik, mintha levegővel telne meg. Legna gyobb meglepetésedre elemelkedsz a talaj tól. Óvatosan előre lebegsz, majd lágya leereszkedsz a talajra, a sziklafal lába elé.\nAmint földet érsz, köpenyed leereszkedik és ismét úgy csüng le rólad, mint bármelyi közönséges ruhadarab. Lapozz a 27-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [23,
             27
         ]
     },
@@ -197,7 +201,7 @@
         "Sorszám": 24,
         "Szöveg": "Kardoddal átnyúlsz a rácsokon, a férfi pedi rémülten ugrik hátra. Újra megpróbálod ezt azonban nagyobb erővel. Eltalálod a torkát a sebből bíborvörös vér folyik végig fegy vereden, egyenesen a kezedre. Értetlenü néz rád, majd ülő helyzetbe roskad a padló ra. Ahogy feje előre esik, visszahúzod  fegyvered és megtisztítod véres kezed. Úg döntesz, északi irányba folytatod az utad úgyhogy az ajtón át távozol. Lapozz a 72-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [24,
             72
         ]
     },
@@ -205,7 +209,7 @@
         "Sorszám": 25,
         "Szöveg": "Sikerül gond nélkül elérned a túloldalt majd sietve távozol az északi nyíláson át.\nLapozz az 52-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [25,
             52
         ]
     },
@@ -213,13 +217,13 @@
         "Sorszám": 26,
         "Szöveg": "Vagy száz Elf áll körülötted, megfeszítet nyílvesszőkkel, melyek feléd mutatnak.  halott Főnök fia előre lép és az idős férfir néz, aki alig észrevehetően megrázza a fejét.\nAz Elf komoran elmosolyodik. Bünös jelenti ki. Az utolsó dolog, amit hallasz, az  feléd suhanó nyílvesszők zaja. Kalandod it véget ér.",
         "Esemény": "Ugras",
-        "Tovabb": []
+        "Tovabb": ["Vege"]
     },
     {
         "Sorszám": 27,
         "Szöveg": "Egy hatalmas völgy lábánál állsz, melye egy gyors folyású folyó vájt ki. Próbáls valami megoldást találni az átkelésre, d csak egy kicsi, eléggé rozoga és korhad hidat látsz. Ahogy megközelíted, a látod amint két óriási termesz eszi a fát. Hófehé wwww testükön igen nyugtalanítóan hat két vér vörös szemük. A lények bármelyike bármi kor beléd marhatna. Ha sietsz, talán mé sikerül átkelned rajta azelőtt, hogy végle összeroskadna. A másik lehetőséged, hog megpróbálsz átúszni a sebes folyón. Ha a első megoldást választod, lapozz a 40-re.\nHa úgy gondolod, elég jó úszó vagy, é ezzel próbálkoznál, lapozz a 2-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [37,
             40,
             2
         ]
@@ -228,7 +232,7 @@
         "Sorszám": 28,
         "Szöveg": "Egy idő után újabb elágazásba botlasz.  déli ágról úgy véled, az visszafelé vezetne ezért északnak indulsz. Lapozz a 67-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [28,
             67
         ]
     },
@@ -236,7 +240,7 @@
         "Sorszám": 29,
         "Szöveg": "A járat, amiben most haladsz, egy észak-dé irányú, másik folyosóba torkollik bele. Úg döntesz, balra fordulva haladsz tovább.\nLapozz a 69-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [29,
             69
         ]
     },
@@ -244,7 +248,7 @@
         "Sorszám": 30,
         "Szöveg": "A járat nyugati irányba indul, ám hamaro san északnak fordul. Végül elérsz egy ajtóig.\nmely a keleti falban áll. Ha be akarsz nyitn rajta, lapozz a 124-re. Ha a folyosón folytat nád az utad, lapozz a 129-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [30,
             124,
             129
         ]
@@ -253,7 +257,7 @@
         "Sorszám": 31,
         "Szöveg": "Végigsétálsz a járaton, mely elágazásba végződik. A déli folyosó visszafelé vezetne úgyhogy északnak indulsz. Lapozz a 99-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [31,
             99
         ]
     },
@@ -261,7 +265,7 @@
         "Sorszám": 32,
         "Szöveg": "Úgy döntesz, késlekedés nélkül elhagyod  szobát, így bezárod magad mögött az ajtó és keletnek indulsz. Lapozz a 16-ra.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [32,
             16
         ]
     },
@@ -269,7 +273,7 @@
         "Sorszám": 33,
         "Szöveg": "Az alagút egy ideig kanyarog, de végi észak felé megy. Hamarosan egy ajtó jele nik meg a jobb oldali falban. Ha megnézed nyitva van-e, lapozz az 5-re. Ha inkáb hagynád az ajtót és tovább folytatnád a utadat, lapozz a 14-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [33,
             5,
             14
         ]
@@ -278,7 +282,7 @@
         "Sorszám": 34,
         "Szöveg": "A fiola erős mentaillatot áraszt magából. H meg akarod inni, lapozz a 102-re. Ha inkáb hagyod, ahol van, lapozz a 169-re.",
         "Esemény": "Ugras",
-        "Tovabb": [
+        "Tovabb": [34,
             102,
             169
         ]
@@ -287,13 +291,14 @@
         "Sorszám": 35,
         "Szöveg": "Kétségbeesetten kaparod a falat, de képtele vagy megakadályozni, hogy a tüz kellő közepébe ne zuhanj. Ahogy a csúszda végé hez közeledsz, már a láng pattanásait i hallod, és megpillantod a pokoli lángnyel veket. Lendületed miatt egy ideig még  levegőben repülsz, utána azonban, ahog fejjel előre a tűzbe zuhansz, a szörnyű me leg egy pillanat alatt füstpamaccsá változtat.\nKalandod itt véget ér.",
         "Esemény": "Ugras",
-        "Tovabb": []
+        "Tovabb": ["Vege"]
     },
     {
         "Sorszám": 36,
         "Szöveg": "Semmit nem találsz, így északra folytato az utad. Lapozz a 98-ra.",
         "Esemény": "Ugras",
         "Tovabb": [
+            36,
             98
         ]
     },
@@ -302,6 +307,7 @@
         "Szöveg": "A törmelékek közt kutatva belerúgsz valam fémes dologba. Miután eltakarítottad a kör nyékéről a szemetet, egy masszív csapóajt körvonalai rajzolódnak ki előtted a padló ban. Nem tudod megállapítani, hogy tú rozsdás-e ahhoz, hogy fel lehessen nyitni, t mindenesetre megpróbálod. Tedd próbár SZERENCSÉD! Ha szerencsés vagy, lapozz  199-re. Hogyha nincs szerencséd, lapozz  130-ra.",
         "Esemény": "Ugras",
         "Tovabb": [
+            37,
             199,
             130
         ]
@@ -311,6 +317,7 @@
         "Szöveg": "Átkutatod a zsákutcát, remélve, hogy találs valamit. Tedd próbára SZERENCSÉD! Hogyh szerencsés vagy, lapozz a 114-re. Ha ninc szerencséd, lapozz az 55-re.",
         "Esemény": "Ugras",
         "Tovabb": [
+            38,
             114,
             55
         ]
@@ -320,6 +327,7 @@
         "Szöveg": "A szobába belépve az eddig látott leg civilizáltabb teremben találod magad. A fa lakat fa burkolólapok borítják, fáklyák he lyett itt egy lágy fényt árasztó gömb bizto sítja a világítást, mely a szoba közepén áll asztal felett lebeg. E mellett egy férfi gör nyedt alakját veszed észre. Miközben be csukod magad mögött az ajtót, az öreg ember felemelkedik, és üdvözlően felé nyújtja mindkét karját. Hangja vékony é remegő, és csak ekkor jössz rá, mennyir vén is lehet. Megtaláltad a Szobrot kérdezi tőled. Ha nálad van a tárgy, lapozz  91-re. Ha nincs nálad, lapozz a 131-re. H nem bízol meg benne és rá akarsz támadni lapozz a 77-re.",
         "Esemény": "Ugras",
         "Tovabb": [
+            39,
             91,
             131,
             77
@@ -330,6 +338,7 @@
         "Szöveg": "Miközben a termeszektől nyüzsgő építmé nyen haladsz, az baljósan recseg-ropog  talpad alatt. Minden egyes lépéssel újab darabjai esnek bele a vízbe. Végül már csa  egyetlen kötél marad épen, ami az utols deszkadarabot tartja. Tedd próbára SZEREN CSÉD! Ha szerencsés vagy, lapozz a 60-ra.\nHa nem, lapozz a 75-re.",
         "Esemény": "Ugras",
         "Tovabb": [
+            40,
             60,
             75
         ]
@@ -356,6 +365,7 @@
         "Szöveg": "A járat tovább szélesedik, végül egy hatal mas barlangüregben találod magad. Mind két oldaladnál sztalagmitok és sztalaktito meredeznek. Néhányuk hatalmas kőoszlop pá nőtt össze az idők folyamán, melye mögött kimondhatatlan borzalmak lapul a borl hatnak. Érzed, hogy a barlangban folya matosan mozog a levegő, és rájössz, hog ennek oka egy gyors folyású, igen vesze delmesnek tűnő folyó. Feltekintve szemei követik a cseppkőoszlopok vonalait, egésze addig, míg el nem tűnnek a plafont elrejt végtelen sötétségben. Valahol a folyó men tén egy kis, nem túl bizalomgerjesztő hi körvonalát sikerül kivenni. Lapozz a 27-re.",
         "Esemény": "Ugras",
         "Tovabb": [
+            42,
             27
         ]
     },
@@ -364,6 +374,7 @@
         "Szöveg": "Köpenyed hirtelen széttárul, és megszakad  zuhanás. Egy másodpercig mozdulatlanu lebegsz. Letekintesz, de még most sem lá tod az alját. Meglepetten és hálásan vesze tudomásul, hogy új szerzeményed óvatosa visszaszállít téged a bejárathoz. Mikor má kint vagy, megkönnyebbülten felsóhajtasz majd észak felé folytatod az utad. Lapozz  68-ra.",
         "Esemény": "Ugras",
         "Tovabb": [
+            43,
             68
         ]
     },
@@ -372,6 +383,7 @@
         "Szöveg": "Döbbenetes előrelátásodtól vezérelve elev gyanítottad, hogy itt egy csapda vár rád, íg sikerül félreugranod anélkül, hogy a lövedé kek eltalálnának; mindkettő ártalmatlanu hull a földre. Lapozz a 65-re.",
         "Esemény": "Ugras",
         "Tovabb": [
+            44,
             65
         ]
     },
@@ -380,6 +392,7 @@
         "Szöveg": "Ha be akarsz nyitni az ajtón, lapozz a 90-re.\nHa tovább mennél keleti irányba, lapozz  16-ra.",
         "Esemény": "Ugras",
         "Tovabb": [
+            45,
             90,
             16
         ]
@@ -389,6 +402,7 @@
         "Szöveg": "A kő igen értékes. A kiálló fadarabokat ke rülgetve visszatérsz az elágazáshoz. Lapozz a 184-re.",
         "Esemény": "Ugras",
         "Tovabb": [
+            46,
             184
         ]
     },
@@ -397,6 +411,7 @@
         "Szöveg": "Az ajtóhoz lépsz és kezelésbe veszed  hatalmas zárat: tekerni kezded a tárcsákat míg a helyes kombinációt nem sikerül be állítanod rajta. Ahogy az utolsót is a megfe lelő helyzetbe fordítod, az ajtó kinyílik é icio ne egy szoba tárul fel előtted, melynek falai könyvekkel megrakott polcok szegélyezik.\nEgy könyvtárban találod magad. A középe álló asztalon három nyitott könyvet látsz.\nHa a pirosba akarsz beleolvasni, lapozz a 59-re. Hogyha a kékre vagy kíváncsi, lapozz a 104-re. Ha a zöld érdekel, lapozz a 88-ra.\nHa nem tudsz olvasni és úgy döntesz, távo zol az északi ajtón át, lapozz a 10-re.",
         "Esemény": "Ugras",
         "Tovabb": [
+            47,
             59,
             104,
             88,
@@ -408,6 +423,7 @@
         "Szöveg": "Probléma nélkül eléred a verem alját. Lapozz a 27-re.",
         "Esemény": "Ugras",
         "Tovabb": [
+            48,
             27
         ]
     },
@@ -416,6 +432,7 @@
         "Szöveg": "A növénykének valóban mágikus gyógyít tulajdonsága van, és még szerencsét is hoz.\nNyersz 4 ÉLETERO pontot, SZERENCSE pont jaid pedig mostantól kezdve nem fogna 6 alá menni. Az északi ajtón át távozol.\nLapozz a 152-re.",
         "Esemény": "Ugras",
         "Tovabb": [
+            49,
             152
         ]
     },
@@ -424,6 +441,7 @@
         "Szöveg": "A tetemet átkutatva 2 Aranytallért és egy darab pergament találsz, melyre három számot írtak. Fogalmad sincs, mit jelenthetnek, de úgy gondolod, egy zár kombinációja lehet talán éppen azé, amelyik a Szobrot védi. A számok rendre 15, 10 és 22. Úgy döntesz, jól megjegyzed öket, mert mindig fennáll a veszélye annak, hogy elveszted a papírdarabot. Északi irányba folytatod az utadat. Lapozz a 143-ra.",
         "Esemény": "Ugras",
         "Tovabb": [
+            50,
             143
         ]
     },
@@ -432,6 +450,7 @@
         "Szöveg": "Egy kis helyiségbe nyitsz be, mely első ránézésre nem tartalmaz semmi mást, csak nagy halom törmeléket a padlón. Ahogy beljebb lépsz, kellemetlen szag csapja meg az orrodat, és egy éles, magas és amenynyire meg tudod állapítani dühödt visítás kezd egyre erősödni. Végül egy rikoltás kíséretében két hatalmas Denevér ereszti el a plafont a szoba két sarkában, és feléd kezdenek repülni. Ahogy ösztönösen lebuksz, sikerül észrevenned a lények vicsorgó agyarait, melyek készek szétcincálni a torkodat. Ha gyorsan kihátrálsz, majd becsapod magad mögött a bejárati ajtót, lapozz a 80-ra. Hogyha megveted a lábad és megküzdesz ezekkel a szörnyű teremtményekkel, lapozz a 140-re.",
         "Esemény": "Ugras",
         "Tovabb": [
+            51,
             80,
             140
         ]
