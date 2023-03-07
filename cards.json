@@ -246,7 +246,7 @@
   "Esemény": "Tamad",
   "Tovabb" : [41, 42],
   "Mobs" : {
-    "Mob1" : ["Tolvaj", 6 , 7 , 0]
+    "Mob1" : ["Tolvaj", 6 , 7 , -1]
   }
 },{
   "Sorszám" : 42,
