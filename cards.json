@@ -73,7 +73,11 @@
     },
     {
         "Sorszám": 10,
+<<<<<<< Updated upstream
         "Szöveg": "Az ajtó recsegve nyílik ki és fed fel eg helyiséget, mely alig szélesebb a folyosónál.\nHosszában két részre van osztva. Az egyi oldalon egy cellát látsz, míg a másik egye nesen egy ajtóhoz tart az északi falon. A fogdában egy rongyos férfi áll, aki meredte néz téged és fenyegető mozdulatokat tes irányodba. Gyanítod, hogy szabadságáér cserébe esetleg hasznos információkkal tudna szolgálni számodra. Ha beszélni akarsz vele[1]. Ha jobban érezné magad, ha holtan tudhatnád magad mögött ezért a cella rácsai közt átnyúlva kardélr hánynád[2].",
+=======
+        "Szöveg": "Az ajtó recsegve nyílik ki és fed fel eg helyiséget, mely alig szélesebb a folyosónál. Hosszában két részre van osztva. Az egyi oldalon egy cellát látsz, míg a másik egye nesen egy ajtóhoz tart az északi falon.  fogdában egy rongyos férfi áll, aki meredte néz téged és fenyegető mozdulatokat tes irányodba. Gyanítod, hogy szabadságáér cserébe esetleg hasznos információkkal tudn szolgálni számodra. Ha beszélni akars vele, lapozz a 149-re. Ha jobban érezné magad, ha holtan tudhatnád magad mögött ezért a cella rácsai közt átnyúlva kardélr hánynád, lapozz a 24-re.",
+>>>>>>> Stashed changes
         "Esemény": "Ugras",
         "Tovabb": [
             10, 149,
@@ -117,7 +121,12 @@
     },
     {
         "Sorszám": 15,
+<<<<<<< Updated upstream
         "Szöveg": "Az áramlat túl erős, és tovább sodor egy hí alá. Magad előtt megpillantasz egy sziklát és megpróbálod elkapni. Tedd próbár SZERENCSÉD! Ha szerencséd van[1] Ha nincs[2]",
+=======
+        "Szöveg": "Az áramlat túl erős, és tovább sodor egy hí alá. Magad előtt megpillantasz egy sziklát és megpróbálod elkapni. Tedd próbára SZERENCSÉD! Ha szerencséd van, lapozz  92-re Ha nincs, lapozz a 132-re.",
+        "Szerencseprob": "ja",
+>>>>>>> Stashed changes
         "Esemény": "Ugras",
         "Szerencseprob" : "Ja",
         "Tovabb": [
@@ -127,8 +136,13 @@
     },
     {
         "Sorszám": 16,
+<<<<<<< Updated upstream
         "Alaphurt": [2],
         "Szöveg": "Ahogy előre haladsz, elkerüli figyelmede egy medvecsapda. Belelépsz, fogai mélye a lábadba marnak. Vesztesz 2 ÉLETER pontot. Valamivel később egy elágazáshoz érkezel. Úgy döntesz, a három lehetsége irány közül észak felé indulsz.",
+=======
+        "Szöveg": "Ahogy előre haladsz, elkerüli figyelmede egy medvecsapda. Belelépsz, fogai mélye a lábadba marnak. Vesztesz 2 ÉLETER pontot. Valamivel később egy elágazásho érkezel. Úgy döntesz, a három lehetsége irány közül észak felé indulsz. Lapozz  195-re.",
+        
+>>>>>>> Stashed changes
         "Esemény": "Ugras",
         "Tovabb": [
             16, 195
