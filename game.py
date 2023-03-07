@@ -2,9 +2,9 @@ import json
 import random
 from entity import Entity
 
-with open("cards.json", "r", encoding = "utf-8") as f:
+with open("cards.json", "r", encoding="utf-8") as f:
     cards = json.load(f)
-with open("entity.py", "r", encoding = "utf-8") as p:
+with open("entity.py", "r", encoding="utf-8") as p:
     print(p)
 player = Entity("sanyi")
 
@@ -35,6 +35,8 @@ while True:
           print('Ez nem opció.')
           continue
       sorszam = json[sorszam - 1]['Tovabb'][valasz]
+      if sorszam == 66:
+          player.hplevonas(1)
   #válasz ellenőrzése, hogy benne van-e a továbban
 
 print('Vége a játéknak!')
