@@ -1,7 +1,7 @@
 [
     {
         "Sorszám": 1,
-        "Szöveg": "Belöknek a lenti alagútba, és rád zárják a ajtót, kizárva ezzel a nyíláson át beszűrőd természetes világosságot. Innentől kezdv kizárólag a falra rögzített fáklyáktól remél hetsz valamennyi fényt. Ahogy szemed hoz zászokik a homályhoz, látod, hogy az alagú észak felé indul. Nagyot sóhajtasz a dolo igazságtalansága felett, majd elindulsz abb az irányba. Lapozz a 41-re.",
+        "Szöveg": "Belöknek a lenti alagútba, és rád zárják a ajtót, kizárva ezzel a nyíláson át beszűrőd természetes világosságot. Innentől kezdv kizárólag a falra rögzített fáklyáktól remél hetsz valamennyi fényt. Ahogy szemed hoz zászokik a homályhoz, látod, hogy az alagú észak felé indul. Nagyot sóhajtasz a dolo igazságtalansága felett, majd elindulsz abb az irányba.",
         "Esemény": "Ugras",
         "Tovabb": [
             1, 41
@@ -9,7 +9,7 @@
     },
     {
         "Sorszám": 2,
-        "Szöveg": "A vízbe ugrasz, az áramlat azonban nagyo erős. Megpróbálsz a felszínen maradni, de ez nem könnyű. Lapozz a 148-ra.",
+        "Szöveg": "A vízbe ugrasz, az áramlat azonban nagyo erős. Megpróbálsz a felszínen maradni, de ez nem könnyű.",
         "Esemény": "Ugras",
         "Tovabb": [
             2, 148
@@ -29,7 +29,7 @@
     },
     {
         "Sorszám": 5,
-        "Szöveg": "Az ajtó egy tágas terembe nyílik, melyne északi oldalán egy újabb kijárat van, eg lelógó kötél szomszédságában. Csapdána nem látod jelét, így áthaladsz a szobán é leveszed a kötelet. Lenyomod a kilincset, d így sem sikerül előrébb jutnod alighane zárva van. Ha van nálad egy Aranykulcs lapozz a 110-re. Hogyha nincs, úgy távozo a szobából és folytatod az utadat észak irányba lapozz a 14-re.",
+        "Szöveg": "Az ajtó egy tágas terembe nyílik, melyne északi oldalán egy újabb kijárat van, eg lelógó kötél szomszédságában. Csapdána nem látod jelét, így áthaladsz a szobán é leveszed a kötelet. Lenyomod a kilincset, d így sem sikerül előrébb jutnod alighane zárva van. Ha van nálad egy Aranykulcs [1]. Hogyha nincs, úgy távozo a szobából és folytatod az utadat észak irányba [2].",
         "Esemény": "Ugras",
         "Tovabb": [
             5, 110,
@@ -38,7 +38,7 @@
     },
     {
         "Sorszám": 6,
-        "Szöveg": "Az ajtó egy nyugat felé haladó alagútb nyílik. Követed, míg egy elágazáshoz ne érsz. Ha észak felé akarsz fordulni, lapozz  172-re. Ha nem akarsz letérni ebből  járatból, lapozz a 168-ra.",
+        "Szöveg": "Az ajtó egy nyugat felé haladó alagútb nyílik. Követed, míg egy elágazáshoz ne érsz. Ha észak felé akarsz fordulni[1]. Ha nem akarsz letérni ebből  járatból[2].",
         "Esemény": "Ugras",
         "Tovabb": [
             6, 172,
@@ -47,7 +47,7 @@
     },
     {
         "Sorszám": 7,
-        "Szöveg": "Mikor végül eléred a verem alját, semmi nem látsz. A falakat végigtapogatva annyi meg tudsz állapítani, hogy az alagút kele felé megy tovább. Ha a vaksötét ellenére i bevállalod ezt a járatot, lapozz a 165-re. H inkább visszatérnél a fenti folyosóra é északnak folytatnád az utad, lapozz a 96-ra.",
+        "Szöveg": "Mikor végül eléred a verem alját, semmi nem látsz. A falakat végigtapogatva annyi meg tudsz állapítani, hogy az alagút kele felé megy tovább. Ha a vaksötét ellenére is bevállalod ezt a járatot[1]. Ha inkább visszatérnél a fenti folyosóra é északnak folytatnád az utad[2].",
         "Esemény": "Ugras",
         "Tovabb": [
             7, 165,
@@ -56,15 +56,16 @@
     },
     {
         "Sorszám": 8,
-        "Szöveg": "A dárdák, melyeket egy igen hatásos mé reggel kentek be, mélyen a lábadba fúród nak. Dobj egy kockával, hogy megtudd hány ÉLETERO pontot vesztettél. Lapozz  65-re.",
+        "Szöveg": "A dárdák, melyeket egy igen hatásos méreggel kentek be, mélyen a lábadba fúród nak. Négy ÉLETERŐ pontot vesztettél.",
         "Esemény": "Ugras",
+        "Alaphurt" : [4],
         "Tovabb": [
             8, 65
         ]
     },
     {
         "Sorszám": 9,
-        "Szöveg": "Elsietsz a halott fenevad teteme mellett é gyorsan az északi járathoz lépsz. Lapozz a 52-re.",
+        "Szöveg": "Elsietsz a halott fenevad teteme mellett é gyorsan az északi járathoz lépsz.",
         "Esemény": "Ugras",
         "Tovabb": [
             9, 52
@@ -72,7 +73,7 @@
     },
     {
         "Sorszám": 10,
-        "Szöveg": "Az ajtó recsegve nyílik ki és fed fel eg helyiséget, mely alig szélesebb a folyosónál.\nHosszában két részre van osztva. Az egyi oldalon egy cellát látsz, míg a másik egye nesen egy ajtóhoz tart az északi falon.  fogdában egy rongyos férfi áll, aki meredte néz téged és fenyegető mozdulatokat tes irányodba. Gyanítod, hogy szabadságáér cserébe esetleg hasznos információkkal tudn szolgálni számodra. Ha beszélni akars vele, lapozz a 149-re. Ha jobban érezné magad, ha holtan tudhatnád magad mögött ezért a cella rácsai közt átnyúlva kardélr hánynád, lapozz a 24-re.",
+        "Szöveg": "Az ajtó recsegve nyílik ki és fed fel eg helyiséget, mely alig szélesebb a folyosónál.\nHosszában két részre van osztva. Az egyi oldalon egy cellát látsz, míg a másik egye nesen egy ajtóhoz tart az északi falon. A fogdában egy rongyos férfi áll, aki meredte néz téged és fenyegető mozdulatokat tes irányodba. Gyanítod, hogy szabadságáér cserébe esetleg hasznos információkkal tudna szolgálni számodra. Ha beszélni akars vele[1]. Ha jobban érezné magad, ha holtan tudhatnád magad mögött ezért a cella rácsai közt átnyúlva kardélr hánynád[2].",
         "Esemény": "Ugras",
         "Tovabb": [
             10, 149,
@@ -733,12 +734,12 @@
     },
     {
         "Sorszám": 85,
-        "Szöveg": "A Tolvajnál mindössze 3 Aranytallért és egy háromszög alakú, penészes gyümölcsöt találsz. Még soha nem láttál ehhez hasonlót, de gyanítod, hogy ez lehet a Xentos, a hosszú élet gyümölcse. Ha nem lenne ilyen borzalmas állapotban, gond nélkül megkockáztatnád, hogy belekóstolj, így azonban úgy döntesz, hogy itt hagyod és folytatod az utad észak felé. Hamarosan egy útelágazáshoz érsz. Ha továbbra is északnak tartasz, lapozz a 108-ra. Ha a nyugati irányba leágazó új járaton mennél tovább, lapozz a 147-re.",
+        "Szöveg": "A Tolvajnál mindössze 3 Aranytallért és egy háromszög alakú, penészes gyümölcsöt találsz. Még soha nem láttál ehhez hasonlót, de gyanítod, hogy ez lehet a Xentos, a hosszú élet gyümölcse. Ha nem lenne ilyen borzalmas állapotban, gond nélkül megkockáztatnád, hogy belekóstolj, így azonban úgy döntesz, hogy itt hagyod és folytatod az utad észak felé. Hamarosan egy útelágazáshoz érsz. Ha továbbra is északnak tartasz, lapozz a 108-ra. Ha a nyugati irányba leágazó új járaton mennél tovább.",
         "Esemény": "Ugras",
         "Tovabb": [
             85, 108,
             147
-        ],
+        ]
     },
     {
         "Sorszám": 86,
@@ -1296,7 +1297,7 @@
     },
     {
         "Sorszám": 149,
-        "Szöveg": "Megkérdezed a fogolytól, mondana-e neked valami hasznosat a szabadságáért cserébe. A fickó szemei felcsillannak, és azonnal bólint. Elmondhatom neked, merre találo a legnagyobb rubint, amit valaha láttál mondja. De elöbb eressz ki innen. Ha teljesíted a kérését, lapozz a 133-ra. Hogyha inkább végeznél vele, lapozz a 24-re. Ha itt akarod hagyni és az északi ajtón át távoznál, lapozz a 72-re.",
+        "Szöveg": "Megkérdezed a fogolytól, mondana-e neked valami hasznosat a szabadságáért cserébe. A fickó szemei felcsillannak, és azonnal bólint. Elmondhatom neked, merre találod a legnagyobb rubint, amit valaha láttál mondja. De elöbb eressz ki innen. Ha teljesíted a kérését, lapozz a 133-ra. Hogyha inkább végeznél vele, lapozz a 24-re. Ha itt akarod hagyni és az északi ajtón át távoznál, lapozz a 72-re.",
         "Esemény": "Ugras",
         "Tovabb": [149,
             133,
@@ -1374,7 +1375,7 @@
         "Szerhurt": [1],
         "Tovabb": [156,
             57
-        ],
+        ]
 
     },
     {

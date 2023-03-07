@@ -40,9 +40,9 @@ while True:
       if "Alaphurt" in json[sorszam - 1]:
           player.hplevonas(json[sorszam - 1]['Alaphurt'][0])
       if "Szerhurt" in json[sorszam - 1]:
-          player.hplevonas(json[sorszam - 1]['Szerhurt'][0])
+          player.dexlevonas(json[sorszam - 1]['Szerhurt'][0])
       if "Dexhurt" in json[sorszam - 1]:
-          player.hplevonas(json[sorszam - 1]['Dexhurt'][0])
+          player.lucklevonas(json[sorszam - 1]['Dexhurt'][0])
       if "Szerenceprob" in json[sorszam - 1]:
           if player.tryluck():
               sorszam = json[sorszam - 1]['Tovabb'][2]
