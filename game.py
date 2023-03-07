@@ -43,7 +43,7 @@ while True:
           player.dexlevonas(json[sorszam - 1]['Szerhurt'][0])
       if "Dexhurt" in json[sorszam - 1]:
           player.lucklevonas(json[sorszam - 1]['Dexhurt'][0])
-      if "Szerenceprob" in json[sorszam - 1]:
+      if "Szerencseprob" in json[sorszam - 1]:
           if player.tryluck():
               sorszam = json[sorszam - 1]['Tovabb'][2]
           else:
