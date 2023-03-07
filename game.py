@@ -12,7 +12,7 @@ json = cards
 sorszam = 1
 while True:
   print(json[sorszam-1]['Szöveg'])
-  if json[sorszam-1]['Esemény'] == 'Tamad':
+  if json[sorszam-1]['Esemény'] == 'Harc':
       mobj = json[sorszam-1]['Mobs']['Mob1']
       mob = Entity(mobj[0], mobj[1], mobj[2], mobj[3])
       if "Mob2" in json[sorszam-1]['Mobs']:
@@ -31,7 +31,7 @@ while True:
   # válasz lehetőségek kiírása json[sorszam-1]['Tovabb'] alapján
   elif json[sorszam-1]['Esemény'] == 'Ugras':
       valasz = int(input("Válassz: "))
-      if len(json[sorszam - 1]['Tovabb']) <= valasz or valasz == 0:
+      if len(json[sorszam - 1]['Tovabb']) <= valasz:
           print('Ez nem opció.')
           continue
       sorszam = json[sorszam - 1]['Tovabb'][valasz]

@@ -1,10 +1,10 @@
 [
     {
         "Sorszám": 1,
-        "Szöveg": "Belöknek a lenti alagútba, és rád zárják a ajtót, kizárva ezzel a nyíláson át beszűrőd természetes világosságot. Innentől kezdv kizárólag a falra rögzített fáklyáktól remél hetsz valamennyi fényt. Ahogy szemed hoz zászokik a homályhoz, látod, hogy az alagú észak felé indul. Nagyot sóhajtasz a dolo igazságtalansága felett, majd elindulsz abb az irányba. Lapozz a 41-re.",
+        "Szöveg": "Belöknek a lenti alagútba, és rád zárják a ajtót, kizárva ezzel a nyíláson át beszűrőd természetes világosságot.\n Innentől kezdv kizárólag a falra rögzített fáklyáktól remél hetsz valamennyi fényt.\nAhogy szemed hoz zászokik a homályhoz, látod, hogy az alagú észak felé indul.\nNagyot sóhajtasz a dolo igazságtalansága felett, majd elindulsz abb az irányba.",
         "Esemény": "Ugras",
         "Tovabb": [
-            41
+            1, 41
         ]
     },
     {
@@ -12,20 +12,20 @@
         "Szöveg": "A vízbe ugrasz, az áramlat azonban nagyo erős. Megpróbálsz a felszínen maradni, de ez nem könnyű. Lapozz a 148-ra.",
         "Esemény": "Ugras",
         "Tovabb": [
-            148
+            2, 148
         ]
     },
     {
         "Sorszám": 3,
         "Szöveg": "Ahogy óvatosan a drótok között lépkedv eléred a Szobrot, az hirtelen eltűnik!  következő pillanatban vészjósló morajlá hangzik fel a fejed fölött, és ahogy arr nézel, látod, hogy hatalmas szikladarabo kezdenek feléd zuhanni. A hatalmas súl porrá örli csontjaidat. Kalandod itt véget ér.",
         "Esemény": "Ugras",
-        "Tovabb": []
+        "Tovabb": ["Vege"]
     },
     {
         "Sorszám": 4,
-        "Szöveg": "A kötél igen rossz állapotban van, és mé félúton sem jársz, mikor elszakad... Kalan dod itt véget ér.",
+        "Szöveg": "A kötél igen rossz állapotban van, és mé félúton sem jársz, mikor elszakad... Kalandod itt véget ér.",
         "Esemény": "Ugras",
-        "Tovabb": []
+        "Tovabb": ["Vege"]
     },
     {
         "Sorszám": 5,
@@ -339,13 +339,15 @@
         "Szöveg": "ME Az alagút, bár folyamatosan jobbra-balr kanyarog, nagyjából mégis tartja az észak irányt, végül élesen oldalra kanyarodik, é ekkor majdnem belefutsz egy fekete kö penybe öltözött alakba. Tört tart a kezében az arcán ülő tekintet rettegésről árulkodik Rájössz, hogy nem te vagy az egyetlen, aki most próbára tesznek, és hogy mindkette ugyanazon Szobor után kutattok. A fick rád veti magát, nyilvánvaló, hogy mielőb végezni akar veled. Harcolnod kell Tolva ÜGYESSÉG 7 ÉLETERŐ  Ha győzöl, lapozz a 85-re.",
         "Esemény": "Harc",
         "Tovabb": [
+            41,
             85
         ],
         "Mobs": {
             "Mob1": [
-                "Tolva",
-                0,
-                7
+                "Tolvaj",
+                6,
+                7,
+                -1
             ]
         }
     },
