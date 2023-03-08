@@ -73,11 +73,7 @@
     },
     {
         "Sorszám": 10,
-<<<<<<< Updated upstream
         "Szöveg": "Az ajtó recsegve nyílik ki és fed fel eg helyiséget, mely alig szélesebb a folyosónál.\nHosszában két részre van osztva. Az egyi oldalon egy cellát látsz, míg a másik egye nesen egy ajtóhoz tart az északi falon. A fogdában egy rongyos férfi áll, aki meredte néz téged és fenyegető mozdulatokat tes irányodba. Gyanítod, hogy szabadságáér cserébe esetleg hasznos információkkal tudna szolgálni számodra. Ha beszélni akarsz vele[1]. Ha jobban érezné magad, ha holtan tudhatnád magad mögött ezért a cella rácsai közt átnyúlva kardélr hánynád[2].",
-=======
-        "Szöveg": "Az ajtó recsegve nyílik ki és fed fel eg helyiséget, mely alig szélesebb a folyosónál. Hosszában két részre van osztva. Az egyi oldalon egy cellát látsz, míg a másik egye nesen egy ajtóhoz tart az északi falon.  fogdában egy rongyos férfi áll, aki meredte néz téged és fenyegető mozdulatokat tes irányodba. Gyanítod, hogy szabadságáér cserébe esetleg hasznos információkkal tudn szolgálni számodra. Ha beszélni akars vele, lapozz a 149-re. Ha jobban érezné magad, ha holtan tudhatnád magad mögött ezért a cella rácsai közt átnyúlva kardélr hánynád, lapozz a 24-re.",
->>>>>>> Stashed changes
         "Esemény": "Ugras",
         "Tovabb": [
             10, 149,
@@ -121,12 +117,7 @@
     },
     {
         "Sorszám": 15,
-<<<<<<< Updated upstream
         "Szöveg": "Az áramlat túl erős, és tovább sodor egy hí alá. Magad előtt megpillantasz egy sziklát és megpróbálod elkapni. Tedd próbár SZERENCSÉD! Ha szerencséd van[1] Ha nincs[2]",
-=======
-        "Szöveg": "Az áramlat túl erős, és tovább sodor egy hí alá. Magad előtt megpillantasz egy sziklát és megpróbálod elkapni. Tedd próbára SZERENCSÉD! Ha szerencséd van, lapozz  92-re Ha nincs, lapozz a 132-re.",
-        "Szerencseprob": "ja",
->>>>>>> Stashed changes
         "Esemény": "Ugras",
         "Szerencseprob" : "Ja",
         "Tovabb": [
@@ -136,13 +127,8 @@
     },
     {
         "Sorszám": 16,
-<<<<<<< Updated upstream
         "Alaphurt": [2],
         "Szöveg": "Ahogy előre haladsz, elkerüli figyelmede egy medvecsapda. Belelépsz, fogai mélye a lábadba marnak. Vesztesz 2 ÉLETER pontot. Valamivel később egy elágazáshoz érkezel. Úgy döntesz, a három lehetsége irány közül észak felé indulsz.",
-=======
-        "Szöveg": "Ahogy előre haladsz, elkerüli figyelmede egy medvecsapda. Belelépsz, fogai mélye a lábadba marnak. Vesztesz 2 ÉLETER pontot. Valamivel később egy elágazásho érkezel. Úgy döntesz, a három lehetsége irány közül észak felé indulsz. Lapozz  195-re.",
-        
->>>>>>> Stashed changes
         "Esemény": "Ugras",
         "Tovabb": [
             16, 195
@@ -1275,11 +1261,25 @@
     },
     {
         "Sorszám": 140,
-        "Szöveg": "Felkészülsz az ütközetre, miközben a két Denevér zuhanórepülésben közelít feléd. Hogyan is remélheted, hogy kardoddal képes leszel felvenni velük a harcot? Meg kell próbálnod a szoba egy másik részébe csalogatnod őket. Hogyha a pajzsod a levegőbe hajítanád, talán azt hinnék, hogy az egy másik áldozat. Bármit is teszel, egyesével kell megküzdened velük. Első Denevé Második Denevé ÉLETERO  ÜGYESSÉG  ÜGYESSÉG  ÉLETERO  Ha nyersz, lapozz a 160-ra. Ha akarsz, az első kör után a 80-ra lapozva az ajtón át Elmenekülhetsz észak felé.",
-        "Esemény": "Ugras",
+        "Szöveg": "Felkészülsz az ütközetre, miközben a két Denevér zuhanórepülésben közelít feléd. Hogyan is remélheted, hogy kardoddal képes leszel felvenni velük a harcot? Meg kell próbálnod a szoba egy másik részébe csalogatnod őket. Hogyha a pajzsod a levegőbe hajítanád, talán azt hinnék, hogy az egy másik áldozat. Bármit is teszel, egyesével kell megküzdened velük. Első Denevé Második Denevé ÉLETERO 5 ÜGYESSÉG 7 ÜGYESSÉG 6 ÉLETERO 6 Ha nyersz, lapozz a 160-ra. Ha akarsz, az első kör után a 80-ra lapozva az ajtón át Elmenekülhetsz észak felé.",
+        "Esemény": "Harc",
         "Tovabb": [140,
             160
-        ]
+        ],
+        "Mobs": {
+            "Mob1": [
+                "Első Denevér",
+                7,
+                5,
+                -1
+            ],
+            "Mob2": [
+                "Második Denevér",
+                6,
+                6,
+                -1
+            ]
+        }
     },
     {
         "Sorszám": 141,
@@ -1319,6 +1319,7 @@
     {
         "Sorszám": 145,
         "Szöveg": "A helyiség közepén egy 30 Aranytallérból épített csillogó kupac áll. Óvatosan, az esetleges csapdákra odafigyelve teszed öket zsebre. Ha további érmék után akarod átkutatni a sarkokat, lapozz a 36-ra. Hogyha inkább távoznál az északi ajtón át, lapozz a 98-ra.",
+        "ATconfig": [30],
         "Esemény": "Ugras",
         "Tovabb": [145,
             36,
@@ -1346,6 +1347,7 @@
     {
         "Sorszám": 148,
         "Szöveg": "Csaknem megfulladsz, de kitartasz. Dobj két kockával. Ha az eredmény kevesebb vagy ugyanannyi, mint UGYESSÉG pontjaid száma, lapozz a 103-ra. Ha nagyobb, lapozz a 15-re.",
+        "Szerencseprob": "ja",
         "Esemény": "Ugras",
         "Tovabb": [148,
             103,
@@ -1388,16 +1390,23 @@
     },
     {
         "Sorszám": 153,
-        "Szöveg": "A járat szélesedni kezd, repedések és hasadékok jelennek meg a falakon. Zörgö hang szűrődik ki valahonnan, és az egyik lyukból két különös teremtmény ugrik elő. Az egyértelműen látszik, hogy az alvilág lakói, mivel börük teljesen fehér, vad szemeik pedig rózsaszínűek. Fejüktől a farkukig hosszú, veszedelmes tüskék borítják hátukat melyek járás közben jobbra-balra inganak. A lények hátat fordítanak neked, és már kezdesz megörülni, hogy megijedtek tőled és elmenekülnek. Mekkorát tévedtél! Ezek mérges Sündisznók, és épp arra készülnek, hogy halálos tüskéiket beléd lőjék. Egymás után küzdj meg velük.\nElső Sündisznó ÜGYESSÉG 7 ÉLETERO  Második Sündiszn ÜGYESSÉG 8 ÉLETERO  Mivel a tüskék nagyon mérgezőek, valahányszor beléd áll valamelyik, a szokásos 2 helyett 3 ÉLETERŎ pontot kell levonnod magadtól. Lapozz a 42-re.",
+        "Szöveg": "A járat szélesedni kezd, repedések és hasadékok jelennek meg a falakon. Zörgö hang szűrődik ki valahonnan, és az egyik lyukból két különös teremtmény ugrik elő. Az egyértelműen látszik, hogy az alvilág lakói, mivel börük teljesen fehér, vad szemeik pedig rózsaszínűek. Fejüktől a farkukig hosszú, veszedelmes tüskék borítják hátukat melyek járás közben jobbra-balra inganak. A lények hátat fordítanak neked, és már kezdesz megörülni, hogy megijedtek tőled és elmenekülnek. Mekkorát tévedtél! Ezek mérges Sündisznók, és épp arra készülnek, hogy halálos tüskéiket beléd lőjék. Egymás után küzdj meg velük.\nElső Sündisznó ÜGYESSÉG 7 ÉLETERO 5 Második Sündiszn ÜGYESSÉG 8 ÉLETERO 5 Mivel a tüskék nagyon mérgezőek, valahányszor beléd áll valamelyik, a szokásos 2 helyett 3 ÉLETERŎ pontot kell levonnod magadtól. Lapozz a 42-re.",
         "Esemény": "Harc",
         "Tovabb": [153,
             42
         ],
         "Mobs": {
             "Mob1": [
-                "ndiszn",
-                0,
-                8
+                "Első Sündisznó",
+                5,
+                7,
+                -1
+            ],
+            "Mob2": [
+                "Második Sündisznó",
+                5,
+                8,
+                -1
             ]
         }
     },
@@ -1411,7 +1420,7 @@
     },
     {
         "Sorszám": 155,
-        "Szöveg": "A lejtő elég meredek, és már régóta mész, mikor a lépcsők megszűnnek, a járat pedig élesen balra kanyarodik. Fárasztó volt idáig az út, ezért lankad a figyelmed, mikor egy mocskos, dagadt Hobgoblin ugrik eléd. Bandzsa szemeivel az egyik bíbor, a másik zöld méreget téged. Ruhái ugyanolyan koszosak, mint ő maga, ráadásul eléggé szakadtak is, a kezében lévő kard azonban borotvaéles, és látszik, hogy gondosan karban tartja. Előre nyújtott fegyverrel közeledik feléd.\nHobgobli ÜGYESSÉG 7 ÉLETERO  Hogyha győzöl, lapozz az 50-re. Ha rosszul alakul a harc, az első Harci Kört követően el tudsz futni ellenfeled mellett, tovább az északra vezető lépcsőkön ha így tennél, lapozz a 143-ra.",
+        "Szöveg": "A lejtő elég meredek, és már régóta mész, mikor a lépcsők megszűnnek, a járat pedig élesen balra kanyarodik. Fárasztó volt idáig az út, ezért lankad a figyelmed, mikor egy mocskos, dagadt Hobgoblin ugrik eléd. Bandzsa szemeivel az egyik bíbor, a másik zöld méreget téged. Ruhái ugyanolyan koszosak, mint ő maga, ráadásul eléggé szakadtak is, a kezében lévő kard azonban borotvaéles, és látszik, hogy gondosan karban tartja. Előre nyújtott fegyverrel közeledik feléd.\nHobgobli ÜGYESSÉG 7 ÉLETERO 8 Hogyha győzöl, lapozz az 50-re. Ha rosszul alakul a harc, az első Harci Kört követően el tudsz futni ellenfeled mellett, tovább az északra vezető lépcsőkön ha így tennél, lapozz a 143-ra.",
         "Esemény": "Harc",
         "Tovabb": [155,
             50,
@@ -1419,9 +1428,10 @@
         ],
         "Mobs": {
             "Mob1": [
-                "Hobgobli",
-                0,
-                7
+                "Hobgoblin",
+                8,
+                7,
+                -1
             ]
         }
     },
@@ -1447,16 +1457,17 @@
     },
     {
         "Sorszám": 158,
-        "Szöveg": "Az ajtó becsapódik, te pedig végre felfedezed a füttyszerű sóhajok és susogások forrását. Előtted, a padlón guggolva megpillantod a Galont, a Madárembert. Bőrszárnyai két oldalt széttárva állnak; kezének éles karmai feléd mutatnak. Azonnal felismered zöldes bőrét, és tudod, hogy izmos karjaival és hatalmas szárnyaival megpróbál majd megfullasztani. Előhúzod kardodat, melynek látványára ellenfeled azonnal örjöngeni kezd, hiszen éhsége kielégíthetetlen. Ez a harc lesz az egyik legnehezebb, amit meg kell itt vívnod.\nGalo ÜGYESSÉG 1 ÉLETERŐ.",
+        "Szöveg": "Az ajtó becsapódik, te pedig végre felfedezed a füttyszerű sóhajok és susogások forrását. Előtted, a padlón guggolva megpillantod a Galont, a Madárembert. Bőrszárnyai két oldalt széttárva állnak; kezének éles karmai feléd mutatnak. Azonnal felismered zöldes bőrét, és tudod, hogy izmos karjaival és hatalmas szárnyaival megpróbál majd megfullasztani. Előhúzod kardodat, melynek látványára ellenfeled azonnal örjöngeni kezd, hiszen éhsége kielégíthetetlen. Ez a harc lesz az egyik legnehezebb, amit meg kell itt vívnod.\nGalo ÜGYESSÉG 12 ÉLETERŐ 8.",
         "Esemény": "Harc",
         "Tovabb": [158,
             61
         ],
         "Mobs": {
             "Mob1": [
-                "Galo",
-                0,
-                1
+                "Galon",
+                8,
+                12,
+                -1
             ]
         }
     },
@@ -1513,7 +1524,8 @@
     },
     {
         "Sorszám": 165,
-        "Szöveg": "A sötétben megbotlasz és elterülsz a padlón. Sikerült csúnyán megütnöd magad. Dobj egy kockával, hogy megtudd, hány ÉLETERŎ pontot vesztettél. Előre nyújtott kezeid szinte ugyanebben a pillanatban falba ütközik. Zsákutcába jutottál. Miközben az alagút falát keresed, fémes csörgés üti meg a füled, és lábaddal körbetapogatózva sikerül rálelned egy kis valamire a padlón. Zsebre teszed, majd miután visszamásztál a létrán a fénybe, alaposabban is megvizsgálod. Egy kis Aranykulcs az. Visszateszed a zsebedbe és észak felé indulsz. Lapozz a 96-ra.",
+        "Szöveg": "A sötétben megbotlasz és elterülsz a padlón. Sikerült csúnyán megütnöd magad. Egy ÉLETERŎ pontot vesztettél. Előre nyújtott kezeid szinte ugyanebben a pillanatban falba ütközik. Zsákutcába jutottál. Miközben az alagút falát keresed, fémes csörgés üti meg a füled, és lábaddal körbetapogatózva sikerül rálelned egy kis valamire a padlón. Zsebre teszed, majd miután visszamásztál a létrán a fénybe, alaposabban is megvizsgálod. Egy kis Aranykulcs az. Visszateszed a zsebedbe és észak felé indulsz. Lapozz a 96-ra.",
+        "Alaphurt": [1],
         "Esemény": "Ugras",
         "Tovabb": [165,
             96
@@ -1556,7 +1568,7 @@
     },
     {
         "Sorszám": 170,
-        "Szöveg": "A cövek súlyos sebet ejtett rajtad. Vesztesz 3 ÉLETERŐ pontot. De legalább odaérsz a rubinhoz. Lapozz a 46-ra.",
+        "Szöveg": "A csövek súlyos sebet ejtett rajtad. Vesztesz 3 ÉLETERŐ pontot. De legalább odaérsz a rubinhoz. Lapozz a 46-ra.",
         "Esemény": "Ugras",
         "Tovabb": [170,
             46
@@ -1565,6 +1577,7 @@
     {
         "Sorszám": 171,
         "Szöveg": "Ahogy a középső pallón sétálsz végig, két oldaladon a sármedencék felszíne bugyborékolni kezd. Óriási gázbuborékok törnek fel belőlük, melyek kidurranva fojtogató, rothadó hússzaggal töltik meg a helyiséget. Tedd próbára SZERENCSÉD! Ha szerencséd van, lapozz a 173-ra. Ha nincs, lapozz a 182-re.",
+        "Szerencseprob": "ja",
         "Esemény": "Ugras",
         "Tovabb": [171,
             173,
@@ -1615,6 +1628,7 @@
     {
         "Sorszám": 177,
         "Szöveg": "Bedőltél a cselnek! Ahogy átlépsz a falak között, egy csapdát aktiválsz, mely elsüt egy megtöltött számszeríjat. Tedd próbára SZERENCSÉD! Ha szerencséd van, lapozz a 78-ra. Ha nincs, lapozz a 21-re.",
+        "Szerencseprob": "ja",
         "Esemény": "Ugras",
         "Tovabb": [177,
             78,
@@ -1640,6 +1654,7 @@
     {
         "Sorszám": 180,
         "Szöveg": "A járat olyan meredeken emelkedik fölfelé, hogy végül egy kéménnyé változik. Itt már csak úgy tudsz haladni, ha a hátaddal é lábaddal nekifeszülsz két szemben álló falnak, és centinként araszolva mászol felfelé. Mikor végül feljutsz, egy széles szirten találod magad. Nagyon elfáradtál a nehéz mászástól vesztesz 1 ÉLETERO pontot. Lapozz az 56-ra.",
+        "Alaphurt": [1],
         "Esemény": "Ugras",
         "Tovabb": [180,
             56
@@ -1648,6 +1663,7 @@
     {
         "Sorszám": 181,
         "Szöveg": "Ahogy megkerülöd a medencét, látod, amint a sár bugyogni kezd. Hatalmas gázbuborékok emelkednek ki belőle és robbannak fel, rothadó hús szagával töltve be a levegőt. Tedd próbára SZERENCSÉD! Ha szerencsés vagy, lapozz a 192-re. Ha nincs szerencséd, lapozz a 188-ra.",
+        "Szerencseprob": "ja",
         "Esemény": "Ugras",
         "Tovabb": [181,
             192,
@@ -1656,22 +1672,30 @@
     },
     {
         "Sorszám": 182,
-        "Szöveg": "A sárból két Iszapsárkány feje emelkedik ki. A szemöldökükből kinövő csápok zöld fénnyel izzanak, miközben áldozatuk után kutatnak. Óriási szájuk kinyílik, és bűzös gázfelhő ölel körbe. A szörnyek mély levegőt vesznek, közben pedig eredeti méretük kétszeresére nőnek meg. Elöhúzod kardodat és reméled, elég szerencsés, erős és ügyes vagy, hogy megóvd magad a rád leselkedő veszélytől.\nElső Iszapsárkány ÜGYESSÉG 9 Második Iszapsárkán ÉLETERŐ  ÜGYESSÉG 10 ÉLETERO  Mindkét ellenfeled külön-külön támad rád minden körben, neked azonban el kell döntened, melyikükkel akarsz harcolni. A kiválasztott Iszapsárkánnyal a szokott módon küzdj meg. A másik ellen ugyanúgy dobj támadódobást, azonban ha a te Támadóértéked a magasabb, nem okozol neki sebzést, csupán kivéded az ő támadását. Ha az ő Támadóértéke a nagyobb, a szokásos módon okoz neked sebesülést. Ha mindkét bestiát sikerül legyőznöd, lapozz a 74-re.",
+        "Szöveg": "A sárból két Iszapsárkány feje emelkedik ki. A szemöldökükből kinövő csápok zöld fénnyel izzanak, miközben áldozatuk után kutatnak. Óriási szájuk kinyílik, és bűzös gázfelhő ölel körbe. A szörnyek mély levegőt vesznek, közben pedig eredeti méretük kétszeresére nőnek meg. Elöhúzod kardodat és reméled, elég szerencsés, erős és ügyes vagy, hogy megóvd magad a rád leselkedő veszélytől.\nElső Iszapsárkány ÜGYESSÉG 9 ÉLETRŐ 5 Második Iszapsárkán ÜGYESSÉG 10 ÉLETERO 6. Mindkét ellenfeled külön-külön támad rád minden körben, neked azonban el kell döntened, melyikükkel akarsz harcolni. A kiválasztott Iszapsárkánnyal a szokott módon küzdj meg. A másik ellen ugyanúgy dobj támadódobást, azonban ha a te Támadóértéked a magasabb, nem okozol neki sebzést, csupán kivéded az ő támadását. Ha az ő Támadóértéke a nagyobb, a szokásos módon okoz neked sebesülést. Ha mindkét bestiát sikerül legyőznöd, lapozz a 74-re.",
         "Esemény": "Harc",
         "Tovabb": [182,
             74
         ],
         "Mobs": {
             "Mob1": [
-                "ny",
-                0,
-                9
+                "ELső Iszapsárkány",
+                5,
+                9,
+                -1
+            ],
+            "Mob2": [
+                "Második Iszapsárkány",
+                6,
+                10,
+                -1
             ]
         }
     },
     {
         "Sorszám": 183,
         "Szöveg": "Az egyik keringö cölöp váratlanul elfordul, és könnyedén felhasítja a börödet. Tedd próbára SZERENCSÉD! Ha szerencsés vagy, lapozz a 194-re. Ha nem, lapozz a 170-re.",
+        "Szerencseprob": "ja",
         "Esemény": "Ugras",
         "Tovabb": [183,
             194,
@@ -1699,6 +1723,7 @@
     {
         "Sorszám": 186,
         "Szöveg": "Keményen érsz földet és csúnyán kificamítod a bokádat. Vesztesz 3 ÉLETERÓ pontot. Sántikálva indulsz el észak felé. Lapozz a 126-ra.",
+        "Alaphurt": [3],
         "Esemény": "Ugras",
         "Tovabb": [186,
             126
@@ -1714,15 +1739,24 @@
     },
     {
         "Sorszám": 188,
-        "Szöveg": "A sár felszíne emelkedni kezd, és tompa pukkanás kíséretében egy óriási gázbuborék emelkedik ki belőle. Ahogy a felszín kisimulna, apró, zöld színü, cikázó fények jelennek meg rajta. A foltocskák kiemelkednek, aljukból csápok nőnek ki, melyek percről percre hosszabbodnak. Végül egy Iszapsárkány óriási feje bukkan elő félig a nyálkás folyadék mélyéből! Most már látod, hogy a zöld fények, amiket korábban láttál, valójában a lény fejéből kinövő csápok, melyek egészen addig szabadon lengeni látszanak, míg hirtelen mindegyik rád nem szegeződik. A hatalmas száj kinyílik, förtelmes szagú gáz tör elő belőle, ezután ellenfeled duzzadni kezd, ahogy levegővel szívja meg magát. Rájössz, hogy meg kell küzdened vele.\nIszapsárkán ÜGYESSÉG  Ha győzöl, lapozz a 9-re.",
+        "Szöveg": "A sár felszíne emelkedni kezd, és tompa pukkanás kíséretében egy óriási gázbuborék emelkedik ki belőle. Ahogy a felszín kisimulna, apró, zöld színü, cikázó fények jelennek meg rajta. A foltocskák kiemelkednek, aljukból csápok nőnek ki, melyek percről percre hosszabbodnak. Végül egy Iszapsárkány óriási feje bukkan elő félig a nyálkás folyadék mélyéből! Most már látod, hogy a zöld fények, amiket korábban láttál, valójában a lény fejéből kinövő csápok, melyek egészen addig szabadon lengeni látszanak, míg hirtelen mindegyik rád nem szegeződik. A hatalmas száj kinyílik, förtelmes szagú gáz tör elő belőle, ezután ellenfeled duzzadni kezd, ahogy levegővel szívja meg magát. Rájössz, hogy meg kell küzdened vele.\nIszapsárkán ÜGYESSÉG 9 ÉLETERŐ 5 Ha győzöl, lapozz a 9-re.",
         "Esemény": "Ugras",
         "Tovabb": [188,
             9
-        ]
+        ],
+        "Mobs": {
+            "Mob1": [
+                "Iszapsárkány",
+                5,
+                9,
+                -1
+            ]
+        }
     },
     {
         "Sorszám": 189,
-        "Szöveg": "ÉLETERO  Ahogy óvatosan áthaladsz a padlón, arra várva, hogy a cövekek mozgás közben utat engedjenek neked, az egyik hegye belekap kabátodba és kibillent az egyensúlyodból. Tedd próbára SZERENCSÉD! Ha szerencséd van, lapozz a 162-re. Ha nincs szerencséd, lapozz a 183-ra.",
+        "Szöveg": "Ahogy óvatosan áthaladsz a padlón, arra várva, hogy a cövekek mozgás közben utat engedjenek neked, az egyik hegye belekap kabátodba és kibillent az egyensúlyodból. Tedd próbára SZERENCSÉD! Ha szerencséd van, lapozz a 162-re. Ha nincs szerencséd, lapozz a 183-ra.",
+        "Szerencseprob": "ja",
         "Esemény": "Ugras",
         "Tovabb": [189,
             162,
@@ -1732,6 +1766,7 @@
     {
         "Sorszám": 190,
         "Szöveg": "Már majdnem eléred a sziklaszirt alját, amikor a kötél elfogy. Innen le kell ugranod. Nagyjából két méterre van alattad a talaj, de elég sziklás. Tedd próbára SZERENCSED! Ha szerencsés vagy, biztonságban, sebesülés nélkül landolsz a talajonlapozz a 27-re. Hogyha nincs szerencséd, lapozz az 54-re.",
+        "Szerencseprob": "ja",
         "Esemény": "Ugras",
         "Tovabb": [190,
             27,
@@ -1758,6 +1793,7 @@
     {
         "Sorszám": 193,
         "Szöveg": "Ahogy megkerülöd a medencét, látod, ahogy mocorogni kezd a felszín. Apró, zöld fények nőnek ki a sár felszínéből. Tedd próbára SZERENCSÉD! Ha szerencsés vagy, lapozz a 25-re. Ha nem, lapozz a 101-re.",
+        "Szerencseprob": "ja",
         "Esemény": "Ugras",
         "Tovabb": [193,
             25,
@@ -1767,6 +1803,7 @@
     {
         "Sorszám": 194,
         "Szöveg": "Szerencséd van, a cövek okozta seb aránylag kicsi. Vesztesz 2 ÉLETERŐ pontot. Eléred a rubint. Lapozz a 46-ra.",
+        "Alaphurt": [2],
         "Esemény": "Ugras",
         "Tovabb": [194,
             46
@@ -1782,7 +1819,8 @@
     },
     {
         "Sorszám": 196,
-        "Szöveg": "Amennyire csak tudod, puha ruhadarabokkal béleled ki a vállad, behúzod a nyakad és az ajtónak rontasz. Dobj egy kockával. Ha az eredmény 1-4, megsérültél és vesztesz 2 ÉLETERŎ pontot. Ha azonban 5-öt vagy 6-ot dobtál, sikerült betörnöd az ajtót lapozz a 158-ra. Egészen addig kell próbálkoznod, míg ez nem sikerül.",
+        "Szöveg": "Amennyire csak tudod, puha ruhadarabokkal béleled ki a vállad, behúzod a nyakad és az ajtónak rontasz. Vesztesz 2 ÉLETERŎ pontot. Ha azonban 5-öt vagy 6-ot dobtál, sikerült betörnöd az ajtót lapozz a 158-ra. Egészen addig kell próbálkoznod, míg ez nem sikerül.",
+        "Alaphurt": [2],
         "Esemény": "Ugras",
         "Tovabb": [196,
             158
